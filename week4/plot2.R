@@ -2,7 +2,7 @@ library(dplyr)
 
 make_plot2 <- function() {
 	fetch_NEI() %>%
-		total_emissions_by_year
+		total_emissions_by_year_in_baltimore
 }
 
 fetch_NEI <- function(filename = "summarySCC_PM25.rds") {
